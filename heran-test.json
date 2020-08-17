@@ -25,49 +25,10 @@
     ],
     "placementConstraints": [],
     "memory": "2048",
-    "compatibilities": [
-      "EC2",
-      "FARGATE"
-    ],
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:766355762186:task-definition/heran-test:3",
     "family": "heran-test",
-    "requiresAttributes": [
-      {
-        "targetId": null,
-        "targetType": null,
-        "value": null,
-        "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
-      },
-      {
-        "targetId": null,
-        "targetType": null,
-        "value": null,
-        "name": "ecs.capability.execution-role-awslogs"
-      },
-      {
-        "targetId": null,
-        "targetType": null,
-        "value": null,
-        "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
-      },
-      {
-        "targetId": null,
-        "targetType": null,
-        "value": null,
-        "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
-      },
-      {
-        "targetId": null,
-        "targetType": null,
-        "value": null,
-        "name": "ecs.capability.task-eni"
-      }
-    ],
     "requiresCompatibilities": [
       "FARGATE"
     ],
     "networkMode": "awsvpc",
-    "cpu": "1024",
-    "revision": 3,
-    "status": "ACTIVE"
+    "cpu": "1024"
   }
